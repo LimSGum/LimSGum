@@ -1,5 +1,5 @@
-# 기여 그래프를 먹는 뱀 애니메이션을 매일 다시 그려 `output` 브랜치에 올립니다.
-name: Generate Snake
+# 기여 그래프를 먹는 팩맨·뱀 애니메이션을 매일 다시 그려 `output` 브랜치에 올립니다.
+name: Generate Snake & Pac-Man
 
 on:
   schedule:
@@ -14,8 +14,15 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
     steps:
+      # 팩맨을 먼저 만들고(dist/pacman-contribution-graph*.svg), 뱀 SVG를 같은 dist 폴더에 더합니다.
+      - name: Generate Pac-Man SVGs
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: 'pacman'
+
       - name: Generate snake SVGs
         uses: Platane/snk@v3
         with:

@@ -117,5 +117,13 @@
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LimSGum/LimSGum/output/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LimSGum/LimSGum/output/pacman-contribution-graph.svg" />
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/LimSGum/LimSGum/output/pacman-contribution-graph.svg" />
+  </picture>
+</p>
+
 <!-- ===================== FOOTER ===================== -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9BE15D,100:3FB950&height=120&section=footer" width="100%" />

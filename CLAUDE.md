@@ -8,7 +8,7 @@
 | 파일 | 역할 |
 |---|---|
 | `README.md` | 프로필 페이지 본문 |
-| `.github/workflows/snake.yml` | 기여 그래프 뱀 애니메이션을 매일 생성해 `output` 브랜치에 올림 (직접 수정할 일 거의 없음) |
+| `.github/workflows/snake.yml` | 기여 그래프 뱀·팩맨 애니메이션을 매일 생성해 `output` 브랜치에 올림 (직접 수정할 일 거의 없음) |
 | `CLAUDE.md` | 이 문서. AI가 README를 수정할 때 따르는 규칙 |
 
 ## 프로젝트 추가하기
