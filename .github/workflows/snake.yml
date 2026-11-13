@@ -1,0 +1,33 @@
+# 기여 그래프를 먹는 뱀 애니메이션을 매일 다시 그려 `output` 브랜치에 올립니다.
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 매일 09:00 (한국 시간)
+  workflow_dispatch:        # Actions 탭에서 수동 실행
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
