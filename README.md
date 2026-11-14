@@ -31,6 +31,7 @@
 <!-- PROJECT-TABLE:START (새 프로젝트 행은 표 마지막 행 아래, END 위에 추가. 규칙은 CLAUDE.md 참고) -->
 | 프로젝트 | 한 줄 소개 | 기술 | 상태 |
 |:--|:--|:--|:--:|
+| 🤖 **claudecord-bot** 🔒 | 모바일 Discord 메시지 한 통으로 내 PC의 Claude Code에 작업을 시키는 봇 | `Python` `Discord` `Claude Code` | ✅ 운영 중 |
 | 💰 **OurAsset** 🔒 | 흩어진 가족 자산을 한 화면에 모으고 AI로 변화를 추적 | `Excel 파싱` `AI 분석` | 🟢 설계 중 |
 | 📰 **Economy_Search** 🔒 | 경제 뉴스 36곳 스크랩 → AI 요약 → 매일 아침 메일 발송 | `React` `Node.js` `Puppeteer` `Docker` | ✅ 운영 중 |
 | 🎧 **system-subtitle** 🔒 | 폰에서 나오는 소리를 실시간 번역 자막으로 띄우는 안드로이드 앱 | `Kotlin` `Android` `Azure Speech` | ✅ v1.0.51 |
@@ -39,6 +40,19 @@
 <!-- PROJECT-TABLE:END -->
 
 <!-- PROJECT-DETAILS:START (새 프로젝트 상세는 표와 같은 순서로 이 사이에 추가) -->
+<details>
+<summary><b>🤖 claudecord-bot</b> 자세히 보기</summary>
+<br/>
+
+> PC 앞을 떠나도 멈추지 않는 AI 비서
+
+- **모바일에서 PC 제어**: Discord 메시지로 Claude Code 작업을 지시
+- **등록된 사용자만 사용**: 허용한 사용자와 채널에서만 동작
+- **작업별 격리 실행**: 작업마다 분리된 폴더에서 실행
+- **결과물 자동 전송**: 만들어진 파일을 Discord로 바로 보내줌
+
+</details>
+
 <details>
 <summary><b>💰 OurAsset</b> 자세히 보기</summary>
 <br/>
