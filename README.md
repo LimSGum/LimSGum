@@ -31,6 +31,7 @@
 <!-- PROJECT-TABLE:START (새 프로젝트 행은 표 마지막 행 아래, END 위에 추가. 규칙은 CLAUDE.md 참고) -->
 | 프로젝트 | 한 줄 소개 | 기술 | 상태 |
 |:--|:--|:--|:--:|
+| 🖼️ **img_to_md** 🔒 | 사진·스캔 이미지 → OCR로 글자 추출 → 마크다운 문서로 변환 | `Python` `Tesseract` `OCR` | 🟢 개발 중 |
 | 🤖 **claudecord-bot** 🔒 | 모바일 Discord 메시지 한 통으로 내 PC의 Claude Code에 작업을 시키는 봇 | `Python` `Discord` `Claude Code` | ✅ 운영 중 |
 | 💰 **OurAsset** 🔒 | 흩어진 가족 자산을 한 화면에 모으고 AI로 변화를 추적 | `Excel 파싱` `AI 분석` | 🟢 설계 중 |
 | 📰 **Economy_Search** 🔒 | 경제 뉴스 36곳 스크랩 → AI 요약 → 매일 아침 메일 발송 | `React` `Node.js` `Puppeteer` `Docker` | ✅ 운영 중 |
@@ -40,6 +41,19 @@
 <!-- PROJECT-TABLE:END -->
 
 <!-- PROJECT-DETAILS:START (새 프로젝트 상세는 표와 같은 순서로 이 사이에 추가) -->
+<details>
+<summary><b>🖼️ img_to_md</b> 자세히 보기</summary>
+<br/>
+
+> 찍어 둔 사진을 바로 검색되는 문서로
+
+- **OCR 변환**: 이미지 속 한글·영어 글자를 읽어 마크다운(.md)으로 저장
+- **폴더 일괄 처리**: 폴더째 넣으면 이미지마다 문서 생성, 원하면 하나로 병합
+- **전처리 자동화**: 회전 보정·흑백·대비 조정으로 인식률을 높이고 낮은 신뢰도 글자는 노이즈로 제거
+- **원본 링크 포함**: 필요하면 원본 이미지 링크를 문서에 함께 삽입
+
+</details>
+
 <details>
 <summary><b>🤖 claudecord-bot</b> 자세히 보기</summary>
 <br/>
