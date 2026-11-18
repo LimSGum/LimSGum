@@ -31,6 +31,8 @@
 <!-- PROJECT-TABLE:START (새 프로젝트 행은 표 마지막 행 아래, END 위에 추가. 규칙은 CLAUDE.md 참고) -->
 | 프로젝트 | 한 줄 소개 | 기술 | 상태 |
 |:--|:--|:--|:--:|
+| 📈 **stock_investigate** 🔒 | 종목 한 줄 요청 → 리서치·원고·4중 리뷰 → 검증된 주식 리포트(HTML) 자동 생성 | `Python` `Node.js` `Claude Code` `yfinance` | 🟢 개발 중 |
+| 📚 **claude-code-study-notes** 🔒 | 책 사진 → 마크다운 전사 → 장별 학습 노트로 정리한 Claude Code 공부 기록 | `Markdown` `OCR` `Claude Skills` | 🟢 개발 중 |
 | 🖼️ **img_to_md** 🔒 | 사진·스캔 이미지 → OCR로 글자 추출 → 마크다운 문서로 변환 | `Python` `Tesseract` `OCR` | 🟢 개발 중 |
 | 🤖 **claudecord-bot** 🔒 | 모바일 Discord 메시지 한 통으로 내 PC의 Claude Code에 작업을 시키는 봇 | `Python` `Discord` `Claude Code` | ✅ 운영 중 |
 | 💰 **OurAsset** 🔒 | 흩어진 가족 자산을 한 화면에 모으고 AI로 변화를 추적 | `Excel 파싱` `AI 분석` | 🟢 설계 중 |
@@ -41,6 +43,32 @@
 <!-- PROJECT-TABLE:END -->
 
 <!-- PROJECT-DETAILS:START (새 프로젝트 상세는 표와 같은 순서로 이 사이에 추가) -->
+<details>
+<summary><b>📈 stock_investigate</b> 자세히 보기</summary>
+<br/>
+
+> 자연어 한 줄이면 토스 스타일 종목 리포트가 나옵니다.
+
+- **원샷 파이프라인**: 계획 → 리서치 → 원고 → 리뷰 → 빌드를 Claude Code 명령 하나로 순서대로 실행
+- **4중 리뷰**: 서로 다른 관점의 리뷰어가 원고를 검토하고, 통과해야만 최종 빌드
+- **가격 차트 내장**: yfinance 일봉 데이터를 받아 리포트에 차트로 삽입
+- **계약 기반 검증**: 필수 항목·섹션 정합성을 스크립트로 검사해 깨진 리포트는 만들어지지 않음
+
+</details>
+
+<details>
+<summary><b>📚 claude-code-study-notes</b> 자세히 보기</summary>
+<br/>
+
+> 읽은 책을 사진으로 남기고, 검색되는 지식으로 바꾸는 공부 저장소
+
+- **사진 → 마크다운 전사**: 책 펼침면 사진 230여 장을 순서대로 옮겨 적어 보관
+- **장별 개인 노트**: 공부하며 직접 정리한 노트를 장 번호 순으로 정리
+- **학습 가이드 스킬**: 책 내용을 바탕으로 "어떤 AI 도구로 시작할지" 안내하는 Claude 스킬 제작
+- **원본 보존 원칙**: 사진은 원본 증거로 남기고, 전사본은 사진과 대조한 뒤에만 수정
+
+</details>
+
 <details>
 <summary><b>🖼️ img_to_md</b> 자세히 보기</summary>
 <br/>
