@@ -31,15 +31,15 @@
 <!-- PROJECT-TABLE:START (새 프로젝트 행은 표 마지막 행 아래, END 위에 추가. 규칙은 CLAUDE.md 참고) -->
 | 프로젝트 | 한 줄 소개 | 기술 | 상태 |
 |:--|:--|:--|:--:|
-| 📈 **stock_investigate** 🔒 | 종목 한 줄 요청 → 리서치·원고·4중 리뷰 → 검증된 주식 리포트(HTML) 자동 생성 | `Python` `Node.js` `Claude Code` `yfinance` | 🟢 개발 중 |
-| 📚 **book-librarian** 🔒 | 읽은 책을 한 권씩 채워 가는 개인 서재, 책별 학습 노트 저장소를 주제별로 연결 | `Markdown` `학습 노트` | 🟢 진행 중 |
-| 🖼️ **img_to_md** 🔒 | 사진·스캔 이미지 → OCR로 글자 추출 → 마크다운 문서로 변환 | `Python` `Tesseract` `OCR` | 🟢 개발 중 |
-| 🤖 **claudecord-bot** 🔒 | 모바일 Discord 메시지 한 통으로 내 PC의 Claude Code에 작업을 시키는 봇 | `Python` `Discord` `Claude Code` | ✅ 운영 중 |
-| 💰 **OurAsset** 🔒 | 흩어진 가족 자산을 한 화면에 모으고 AI로 변화를 추적 | `Excel 파싱` `AI 분석` | 🟢 설계 중 |
-| 📰 **Economy_Search** 🔒 | 경제 뉴스 36곳 스크랩 → AI 요약 → 매일 아침 메일 발송 | `React` `Node.js` `Puppeteer` `Docker` | ✅ 운영 중 |
-| 🎧 **system-subtitle** 🔒 | 폰에서 나오는 소리를 실시간 번역 자막으로 띄우는 안드로이드 앱 | `Kotlin` `Android` `Azure Speech` | ✅ v1.0.51 |
-| 🎵 **youtube_music_extract** 🔒 | 영상 속 음악을 골라내 듣기 좋게 정리하는 개인용 도구 | `Audio` `Automation` | 🟢 개발 중 |
-| 🗂️ **portfolio** 🔒 | 경력과 프로젝트를 정리한 개인 포트폴리오 웹사이트 | `HTML` `CSS` `JavaScript` | ✅ 배포 완료 |
+| 📈 [**stock_investigate**](https://github.com/LimSGum/stock_investigate) 🔒 | 종목 한 줄 요청 → 리서치·원고·4중 리뷰 → 검증된 주식 리포트(HTML) 자동 생성 | `Python` `Node.js` `Claude Code` `yfinance` | 🟢 개발 중 |
+| 📚 [**book-librarian**](https://github.com/LimSGum/book-librarian) 🔒 | 읽은 책을 한 권씩 채워 가는 개인 서재, 책별 학습 노트 저장소를 주제별로 연결 | `Markdown` `학습 노트` | 🟢 진행 중 |
+| 🖼️ [**img_to_md**](https://github.com/LimSGum/img_to_md) 🔒 | 사진·스캔 이미지 → OCR로 글자 추출 → 마크다운 문서로 변환 | `Python` `Tesseract` `OCR` | 🟢 개발 중 |
+| 🤖 [**claudecord-bot**](https://github.com/LimSGum/claudecord-bot) 🔒 | 모바일 Discord 메시지 한 통으로 내 PC의 Claude Code에 작업을 시키는 봇 | `Python` `Discord` `Claude Code` | ✅ 운영 중 |
+| 💰 [**OurAsset**](https://github.com/LimSGum/OurAsset) 🔒 | 흩어진 가족 자산을 한 화면에 모으고 AI로 변화를 추적 | `Excel 파싱` `AI 분석` | 🟢 설계 중 |
+| 📰 [**Economy_Search**](https://github.com/LimSGum/Economy_Search) 🔒 | 경제 뉴스 36곳 스크랩 → AI 요약 → 매일 아침 메일 발송 | `React` `Node.js` `Puppeteer` `Docker` | ✅ 운영 중 |
+| 🎧 [**system-subtitle**](https://github.com/LimSGum/system-subtitle) 🔒 | 폰에서 나오는 소리를 실시간 번역 자막으로 띄우는 안드로이드 앱 | `Kotlin` `Android` `Azure Speech` | ✅ v1.0.51 |
+| 🎵 [**youtube_music_extract**](https://github.com/LimSGum/youtube_music_extract) 🔒 | 영상 속 음악을 골라내 듣기 좋게 정리하는 개인용 도구 | `Audio` `Automation` | 🟢 개발 중 |
+| 🗂️ [**portfolio**](https://github.com/LimSGum/portfolio) 🔒 | 경력과 프로젝트를 정리한 개인 포트폴리오 웹사이트 | `HTML` `CSS` `JavaScript` | ✅ 배포 완료 |
 <!-- PROJECT-TABLE:END -->
 
 <!-- PROJECT-DETAILS:START (새 프로젝트 상세는 표와 같은 순서로 이 사이에 추가) -->
